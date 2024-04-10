@@ -39,7 +39,7 @@
                 </div>
             @empty
                 <h2>Share Photos</h2>
-                <p class="text-muted">When you share photos, they appear on your profile!</p>
+                <p class="text-muted">When you share photos, they appear on your profile.</p>
                 <a href="{{ route('post.create') }}" class="text-decoration-none">Share your first photo</a>
             @endforelse
         </div>
